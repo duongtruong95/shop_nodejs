@@ -5,7 +5,7 @@ var Cate = require('../model/Cate.js');
 
 var User = require('../model/User.js');
 
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 

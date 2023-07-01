@@ -23,7 +23,7 @@ var hash = bcrypt.hashSync("B4c0/\/", salt);
 var expressValidator = require('express-validator');
 var flash = require('connect-flash');
 var app = express();
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 
 //var upload = multer({ dest: '/public/uploads/' })
 // view engine setup
