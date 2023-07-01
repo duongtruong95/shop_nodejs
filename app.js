@@ -29,7 +29,7 @@ var bcrypt = require('bcrypt');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-mongoose.connect('mongodb://127.0.0.1:27017/dbtest').then(function () {
+mongoose.connect('mongodb+srv://skunduong:root@cluster0.pjz77c3.mongodb.net/?retryWrites=true&w=majority').then(function () {
   console.log('Connect database successfully!')
 });
 
